@@ -4,15 +4,18 @@
 To connect computers in multiple networks using Distance Vector Routing Protocol and to verify the connectivity between computers.
 # EQUIPMENTS REQUIRED:
 
-
+<img width="837" height="229" alt="image" src="https://github.com/user-attachments/assets/1d23bbb5-e3c4-4d24-8553-5178f663a816" />
 
 # IP ASSIGNMENT:
 
-
+<img width="838" height="406" alt="image" src="https://github.com/user-attachments/assets/c64120f0-da32-41f7-bb5f-6771232a71ec" />
 
 # NETWORK DIAGRAM:
-# PROCEDURE:
 
+<img width="943" height="538" alt="image" src="https://github.com/user-attachments/assets/897679a2-f214-40f6-88b5-180616589480" />
+
+# PROCEDURE:
+```
 STEP 1: Open a Packet Tracer Software.
 STEP 2: Drag two 2900 Switches, two Cisco 1800 Routers, four PC Terminals from tool barand drop it in work area.
 STEP 3: Connect all the PC Terminals and Routers through Switches as shown in the networkdiagram using CAT 6 Patch cables.
@@ -29,9 +32,9 @@ o PC2: 192.168.2.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.2.1
 o PC3: 192.168.3.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.3.1
 o PC4: 192.168.4.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
 o PC5: 192.168.4.3, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
- 
+```
 # PROGRAM
-
+```
 Router0 Configuration Steps
 Click Router 0 and in CLI TYPE THIS Router> enable
 Router# configure terminal Router(config)# interface FastEthernet0/0
@@ -77,10 +80,11 @@ You can also check connectivity between the PCs on different networks to ensure 
 3.	Use the ping command: ping 192.168.3.2
 4.	If everything is configured correctly, you should receive replies from PC3.
 •	Similarly, you can ping between other PCs (e.g., from PC2 to PC5) to verify network connective
- 
+``` 
 # OUTPUT
 
-
+<img width="814" height="830" alt="image" src="https://github.com/user-attachments/assets/54cb32ce-d6eb-4689-bd22-d4559f58d3b5" />
+<img width="741" height="748" alt="image" src="https://github.com/user-attachments/assets/d8efd569-0737-4b90-97e2-fd52fa39edc3" />
 
 # RESULT:
 
